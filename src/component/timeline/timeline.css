@@ -1,4 +1,4 @@
-.timeline__top{
+.timeline__top {
    background-image: url(../../assets2/colleagues-working-cozy-office-medium-shot.jpg);
    background-position: center;
    background-size: cover;
@@ -7,7 +7,7 @@
    z-index: 20;
    position: relative;
 }
-.timeline__bg{
+.timeline__bg {
    position: absolute;
    top: 0;
    left: 0;
@@ -17,15 +17,15 @@
    height: 100%;
    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
-.timeline__inner ul li{
+.timeline__inner ul li {
    padding-top: 2rem;
 }
-.timeline__inner h1{
+.timeline__inner h1 {
    font-size: 30px;
 }
-.timeline__inner{
-   padding: 3rem 2rem; 
-   z-index: 100; 
+.timeline__inner {
+   padding: 3rem 2rem;
+   z-index: 100;
    position: relative;
    color: #ffff;
 }
@@ -86,12 +86,15 @@
 }
 /* -------------Acoordion open and close ENDS----------------- */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
    .accordion {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
    }
    .accordion__head {
       padding: 0rem;
+   }
+   .timeline__top {
+      height: 120vh;
    }
 }

@@ -38,11 +38,11 @@ const Hero = () => {
                            <p className="para2">
                               Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.
                            </p>
-                           <button className="learn"><Link to="/Web-design">Learn More</Link></button>
+                           <button className="learn "><Link to="/Web-design">Learn More</Link></button>
                         </div>
                         <div className="barge">25</div>
                      </div>
-                     <div className="hero__lower-bottom">
+                     <div className="hero__lower-bottom pt-4">
                         <p>
                            Share
                            <span>
