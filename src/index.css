@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+   --font-family: "Montserrat", sans-serif;
+   --mx-p: 1.2rem 4rem;
+   --sm-p: 0.7rem 1.7rem;
+   --white: #ffff;
+   --dark-color: rgb(0, 0, 1);
+   --primary-color: #13547a;
+   --secondary-color: hsl(173, 46%, 66%);
+   --secondary-bg-color: #f0f8ff;
+   --p-color: #717275;
+   --section-color: #f0f8ff;
+   --border-radiusBig: 0px 0px 100px 100px;
+}
+*,
+html {
+   margin: 0;
+   padding: 0;
+   font-family: var(--font-family);
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: var(--font-family);
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+button,
+input,
+select,
+textarea {
+   outline: none;
+   border: none;
+}
+a {
+   text-decoration: none;
+   color: var(--white);
+}
+a:visited,
+a:focus {
+   color: var(--white);
+}
+.space__padding {
+   padding: var(--mx-p);
+}
+li {
+   list-style: none;
+   padding-left: 0px;
+}
+.abouts {
+   justify-content: center;
+   padding-bottom: 1rem;
+   gap: 2rem;
+   flex-wrap: wrap;
+   display: none;
+}
+
+.footer option {
+   background-color: #ffff;
+   color: var(--p-color);
+   width: 500px;
+   font-size: 20px;
+   height: 50px;
+}
+option:hover {
+   background: none;
+}
+select::-webkit-dropdown-arrow {
+   padding: 5px;
+}
+.card .topics__list img {
+   max-width: 100%;
+   height: auto;
+}
+.card .topics__list {
+   display: flex;
+   flex-direction: row-reverse;
+}
+.learning__head {
+   background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+@media screen and (max-width: 800px) {
+   .space__padding {
+      padding: var(--sm-p);
+   }
+   .card .topics__list {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+}

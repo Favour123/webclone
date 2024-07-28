@@ -1,0 +1,28 @@
+.about__title {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   border-bottom: 1px solid #ecf3f2;
+}
+.about__title ul {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   flex-wrap:wrap;
+}
+li.active {
+   border-bottom: 1px solid var(--primary-color);
+}
+.about__title ul li {
+   padding: 15px 20px;
+   color: var(--p-color);
+   font-size: 24px;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.p-5 {
+   padding-top: 4rem !important;
+}

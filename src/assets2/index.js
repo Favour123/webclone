@@ -1,0 +1,7 @@
+export {default as Remote}  from '../assets2/remote.png'
+export {default as Faq}  from '../assets2/faq_graphic.jpg'
+export {default as Podcast}  from '../assets2/podcast.png'
+export {default as Girl}  from '../assets2/girl.png'
+export {default as Young}  from '../assets2/young.jpg'
+export {default as Business}  from '../assets2/businesswoman-using-tablet-analysis.jpg'
+export {default as College}  from '../assets2/colleagues-working-cozy-office-medium-shot.jpg'

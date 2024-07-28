@@ -1,0 +1,46 @@
+.topics__list img {
+   max-width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+.topics__list {
+   flex: 1;
+   background-color: var(--white);
+   font-size: 20px;
+   padding: 30px;
+   border-radius: 20px;
+   transition: all 0.5s ease;
+}
+.topics__list:hover {
+   transform: translateY(-8px);
+}
+
+.shadow {
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.barge.grey {
+   background-color: var(--primary-color);
+}
+.barge.yellow {
+   background-color: #f9a826;
+}
+.barge.red {
+   background-color: #f50057;
+}
+.barge.green {
+   background-color: green;
+}
+.barge.black {
+   background-color: #000;
+}
+.barge.blue {
+   background-color: #00b0ff;
+}
+
+
+.para2 {
+   padding-bottom: 30px;
+   font-size: 24px;
+   color: var(--white);
+}
