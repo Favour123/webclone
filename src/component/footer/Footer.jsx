@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react/dist/iconify.js";
-import "../contactinner/contactinner.css"
+import "../contactinner/contactinner.css";
 const Footer = () => {
    const [selectOption, setselectOption] = useState("English");
    return (
       <div className="footer pt-4 md:py-8">
-         <div className="contact__title space__padding">
-            <div className="header__logo flex flex-1  items-stretch text-[30px] px-6" >
+         <div className="contact__title flex justify-between flex-wrap gap-6 space__padding">
+            <div className="header__logo flex flex-1  items-stretch text-[30px] px-6">
                <Link to="/" className="flex justify-center items-stretch">
                   <Icon icon="bi:back" style={{ color: "black", fontSize: "30px" }} />
                   <span className="text-[30px] text-[var(--dark-color)] pl-1 font-semibold relative">Topics</span>
@@ -18,9 +18,18 @@ const Footer = () => {
                <p className="p__text">
                   <Link to="/">Home</Link>
                </p>
-               <p className="p__text">  <Link to="/">How it works</Link></p>
-               <p className="p__text">  <Link to="/">FAQs</Link></p>
-               <p className="p__text">  <Link to="/">Contact</Link></p>
+               <p className="p__text">
+                  {" "}
+                  <Link to="/">How it works</Link>
+               </p>
+               <p className="p__text">
+                  {" "}
+                  <Link to="/">FAQs</Link>
+               </p>
+               <p className="p__text">
+                  {" "}
+                  <Link to="/">Contact</Link>
+               </p>
             </div>
             <div className="contact__center">
                <h4>Information</h4>
@@ -35,12 +44,12 @@ const Footer = () => {
             <div className="contact__center">
                <form>
                   <select
-                  className="bg-[var(--secondary-color)] text-white text-xl p-4 rounded-xl"
+                     className="bg-[var(--secondary-color)] text-white text-xl p-4 rounded-xl"
                      value={selectOption}
                      onChange={(e) => {
                         setselectOption(e.target.value);
-                     }}>
-                 
+                     }}
+                  >
                      <option value="Spanish">Spanish</option>
                      <option value="Irish">Irish</option>
                   </select>
@@ -55,4 +64,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

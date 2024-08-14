@@ -7,12 +7,7 @@
         font-size: 28px;
         margin-bottom: 1rem;
 }
-.contact__title {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   gap: 1.5rem;
-}
+
 .contact__center{
         padding-left: 1.5rem;
         padding-right: 1.5rem;

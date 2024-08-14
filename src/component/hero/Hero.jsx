@@ -8,11 +8,11 @@ const Hero = () => {
    const [intext, setIntext] = useState("");
    return (
       <div className="hero__head ">
-         <div className="hero__upper">
+         <div className="hero__upper ">
             <h1>Discover. Learn. Enjoy</h1>
             <p>platform for creatives around the world </p>
             <div className="hero__input">
-               <Icon icon="marketeq:search-alt-3" style={{ fontSize: "30px", color: "black" }} />
+               <Icon icon="marketeq:search-alt-3 text-2xl" style={{color: "black" }} />
                <input type="text" value={intext} placeholder="Design,code,marketing,finace..." onChange={(e) => setIntext(e.target.value)} />
                <button>Search</button>
             </div>

@@ -1,11 +1,12 @@
-export {default as Layout} from "./layout/Layout"
-export {default as About} from "./about/About"
-export {default as Footer} from "./footer/Footer"
-export {default as Home} from "./home/Home"
-export {default as Nopage} from "./nopage/Nopage"
-export {default as Hero} from "./hero/Hero"
-export {default as Topics} from "./topics/Topics"
-export {default as Timeline} from "./timeline/Timeline"
-export {default as Contact} from "./contact/Contact"
-export {default as Topicpage} from "./Topicpage"
-export {default as Learning} from "./learning/Learning"
+export { default as Layout } from "./layout/Layout";
+export { default as About } from "./about/About";
+export { default as Footer } from "./footer/Footer";
+export { default as Home } from "./home/Home";
+export { default as Nopage } from "./nopage/Nopage";
+export { default as Hero } from "./hero/Hero";
+export { default as Topics } from "./topics/Topics";
+export { default as Timeline } from "./timeline/Timeline";
+export { default as Contact } from "./contact/Contact";
+export { default as Topicpage } from "./Topicpage";
+export { default as Learning } from "./learning/Learning";
+export { default as Contactinner } from "./contactinner/Contactinner";
