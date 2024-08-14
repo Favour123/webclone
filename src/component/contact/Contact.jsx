@@ -12,7 +12,7 @@ const Contact = () => {
             <p className="my-8">Homepage / Contact Form</p>
             <h2 className="text-[46px]">Contact Form</h2>
          </div>
-         <div className="contact__middle py-[100px] px-24 bg-[var(--secondary-bg-color)] ">
+         <div className="contact__middle py-[50px] md:py-[100px] px-8 md:px-24 bg-[var(--secondary-bg-color)] ">
             <h3 className="text-[32px] p-4 mb-6">We'd love to hear from you</h3>
             <div className="flex flex-col gap-8 sm:flex-row md:flex-row">
                <div className="contact__Mfirst">
